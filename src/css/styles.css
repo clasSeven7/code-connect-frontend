@@ -3,6 +3,8 @@
 :root {
   --primary-color: #1876f2;
   --secondary-color: #efefef;
+  --ternary-color: #cbdffa;
+  --quaternary-color: #626262;
   --online-color: #41db51;
   --transition: all 0.3s linear;
 
@@ -41,6 +43,9 @@ nav {
   justify-content: space-between;
   background: var(--primary-color);
   padding: 0.5rem 5%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .logo {
@@ -109,4 +114,65 @@ nav {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.3rem 5%;
+}
+
+.left-sidebar {
+  flex-basis: 25%;
+  position: sticky;
+  top: 7rem;
+  align-self: flex-start;
+}
+
+.right-sidebar {
+  flex-basis: 25%;
+  position: sticky;
+  top: 7rem;
+  align-self: flex-start;
+}
+
+.main-content {
+  flex-basis: 47%;
+}
+
+.imp-links {
+  border-bottom: 0.1rem solid #ccc;
+}
+
+.imp-links a,
+.shortcut-links a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+  color: var(--quaternary-color);
+  width: fit-content;
+}
+
+.imp-links a img {
+  width: 2.5rem;
+  margin-right: 1.5rem;
+}
+
+.imp-links a:last-child {
+  color: var(--primary-color);
+}
+
+.shortcut-links p {
+  font-size: 1.5rem;
+  margin: 2.5rem 0;
+  color: var(--quaternary-color);
+  font-weight: 500;
+}
+
+.shortcut-links a img {
+  width: 4rem;
+  border-radius: 0.4rem;
+  margin-right: 1.5rem;
 }
