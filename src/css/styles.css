@@ -229,6 +229,16 @@ nav {
   padding: 0.4rem 0;
 }
 
+.right-event h4 {
+  font-size: 1.6rem;
+  margin-bottom: 0.6rem;
+}
+
+.right-event p {
+  font-size: 1.2rem;
+  margin-bottom: 0.6rem;
+}
+
 .event p {
   font-size: 1.2rem;
 }
@@ -237,4 +247,32 @@ nav {
   font-size: 1.2rem;
   text-decoration: none;
   color: var(--primary-color);
+}
+
+.slidebar-ads {
+  width: 100%;
+  margin-bottom: 2rem;
+  border-radius: 0.4rem;
+}
+
+.online-list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.online-list .online img {
+  width: 4rem;
+  border-radius: 50%;
+}
+
+.online-list .online {
+  width: 4rem;
+  border-radius: 50%;
+  margin-right: 1.5rem;
+}
+
+.online-list .online::after {
+  top: unset;
+  bottom: 0.5rem;
 }
