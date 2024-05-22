@@ -5,6 +5,7 @@
   --secondary-color: #efefef;
   --ternary-color: #cbdffa;
   --quaternary-color: #626262;
+  --quinary-color: #9a9a9a;
   --online-color: #41db51;
   --transition: all 0.3s linear;
 
@@ -22,7 +23,6 @@
   outline: none;
   border: none;
   text-decoration: none;
-  text-transform: capitalize;
   transition: all 0.2s linear;
 }
 
@@ -408,4 +408,85 @@ nav {
 .add-post-links a img {
   width: 2rem;
   margin-right: 1rem;
+}
+
+.post-container {
+  width: 100%;
+  background: #fff;
+  border-radius: 0.6rem;
+  padding: 2rem;
+  color: var(--quaternary-color);
+  margin: 2rem 0;
+}
+
+.user-profile span {
+  font-size: 1.3rem;
+  color: var(--quinary-color);
+}
+
+.post-text {
+  color: var(--quinary-color);
+  margin: 1.5rem 0;
+  font-size: 1.5rem;
+}
+
+.post-text span {
+  color: var(--quaternary-color);
+  font-weight: 500;
+}
+
+.post-text a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.post-img {
+  width: 100%;
+  border-radius: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.post-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.activity-icons {
+  display: flex;
+  align-items: center;
+}
+
+.activity-icons div img {
+  width: 1.8rem;
+  margin-right: 1rem;
+}
+
+.activity-icons div {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 3rem;
+}
+
+.post-profile-icon {
+  display: flex;
+  align-items: center;
+}
+
+.post-profile-icon i {
+  font-size: 1.5rem;
+}
+
+.post-profile-icon img {
+  width: 2rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.post-row a i {
+  font-size: 2rem;
+}
+
+.post-row a {
+  color: var(--quinary-color);
 }
