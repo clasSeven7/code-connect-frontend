@@ -490,3 +490,51 @@ nav {
 .post-row a {
   color: var(--quinary-color);
 }
+
+.load-more-btn {
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border: 0.1rem solid var(--quinary-color);
+  color: var(--quaternary-color);
+  background: transparent;
+  border-radius: 0.4rem;
+}
+
+.footer {
+  text-align: center;
+  color: var(--quinary-color);
+  padding: 1rem 0 2rem;
+  font-size: 1.6rem;
+}
+
+.settings-menu {
+  position: absolute;
+  width: 90%;
+  max-width: 35rem;
+  height: 50rem;
+  background: #fff;
+  box-shadow: 0 0 0.1rem rgba(0, 0, 0, 0.4);
+  border-radius: 0.4rem;
+  overflow: hidden;
+  top: 108%;
+  right: 5%;
+}
+
+.user-profile a {
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.settings-menu-inner {
+  padding: 2rem;
+}
+
+.settings-menu hr {
+  border: 0;
+  height: 0.1rem;
+  background: var(--quinary-color);
+  margin: 1.5rem 0;
+}
